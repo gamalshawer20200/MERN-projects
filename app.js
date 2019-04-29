@@ -55,7 +55,7 @@ app.get('/bad', (req, res) => {
 });
 
 app.get('/profile', (req, res) => {
-    res.render('profile', {
+    res.render('Profile', {
         pageTitle: 'Profile page',
         welcomeMessage: 'Welcome to My Profile'
     })
